@@ -1,0 +1,170 @@
+.produk{
+    border: 2px solid black;
+    background: url(img/back.jpg);
+    background-size: cover;
+    padding-bottom: 550px;
+}
+
+.gambar{
+    position: relative;
+    top: 20px;
+    float: left;
+    left: 40px;
+}
+
+.gambar2{
+    position: relative;
+    top: 20px;
+    float: left;
+    left: 45px;
+}
+
+.gambar3{
+    position: relative;
+    top: 175px;
+    float: left;
+    right: 260px;
+}
+
+.gambar4{
+    position: relative;
+    top: 175px;
+    float: left;
+    right: 255px;
+}
+
+.judul{
+    position: relative;
+    float: left;
+    left: 27%;
+    bottom: 140px;
+}
+
+.harga{
+    font-size: 10px;
+    position: relative;
+    top: 65px;
+    right: 210px;
+    text-decoration: line-through;
+    color: #929292;
+}
+
+.harga2{
+    font-size: 20px;
+    -webkit-box-align: center;
+    align-items: center;
+    font-weight: 500;
+    color: #ee4d2d;
+    position: relative;
+    right: 130px;
+    top: 18px;
+}
+
+.diskon{
+    font-size: 12px;
+    position: relative;
+    float: left;
+    right: 250px;
+    bottom: 77px;
+    color: #fff;
+    text-transform: uppercase;
+    background: rgb(238, 77, 45);
+    border-radius: 2px;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+    padding: 2px 4px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 2px;
+    font-weight: 600;
+}
+
+.page_deskripsi{
+    position: relative;
+    box-shadow: 0 1px 1px 0 rgb(0 0 0 / 5%);
+    border-radius: 0.125px;
+    overflow: hidden;
+    background:rgb(255, 255, 255);
+    width: 51.5%;
+    bottom: 100px;
+    float: left;
+    left: 390px;
+    padding: 4px 6px;
+    padding-top: 100px;
+    padding-right: 5px;
+    padding-bottom: 400px;
+    padding-left: 6px;
+}
+
+.page_produk{
+    position: relative;
+    font-family: 'Roboto';
+    float: left;
+    left: 415px;
+    bottom: 580px;
+    background: rgba(0,0,0,.02);
+    width: 47.7%;
+    color: rgba(0,0,0,.87);
+    font-size: 18px;
+    padding: 4px 6px;
+    padding-top: 12px;
+    padding-right: 5px;
+    padding-bottom: 12px;
+    padding-left: 8px;
+    text-transform: capitalize;
+    line-height: 1;
+}
+
+.spesifikasi_produk{
+    position: relative;
+    float: left;
+    right: 220px;
+    bottom: 530px;
+}
+
+.page_produk1{
+    position: relative;
+    font-family: 'Roboto';
+    float: left;
+    left: 415px;
+    bottom: 520px;
+    background: rgba(0,0,0,.02);
+    width: 47.7%;
+    color: rgba(0,0,0,.87);
+    font-size: 18px;
+    padding: 4px 6px;
+    padding-top: 12px;
+    padding-right: 5px;
+    padding-bottom: 12px;
+    padding-left: 8px;
+    text-transform: capitalize;
+    line-height: 1;
+}
+
+.deskripsi_produk{
+    position: relative;
+    float: left;
+    right: 220px;
+    bottom: 475px;
+}
+
+.button{
+    position: relative;
+    font-family: 'Roboto';
+    float: left;
+    left: 945px;
+    bottom: 490px;
+    background: #ee4d2d;
+    width: 8.3%;
+    font-size: 18px;
+    padding: 4px 6px;
+    padding-top: 12px;
+    padding-right: 5px;
+    padding-bottom: 12px;
+    padding-left: 8px;
+    text-transform: capitalize;
+    line-height: 1;
+}
