@@ -1,3 +1,4 @@
+/*CSS Pertemuan ke 2*/
 .produk{
     border: 2px solid black;
     background: url(img/back.jpg);
@@ -167,4 +168,78 @@
     padding-left: 8px;
     text-transform: capitalize;
     line-height: 1;
+}
+
+/*CSS Pertemuan ke 3*/
+
+/*Background*/
+.background{
+    background: #FFB53E;
+}
+
+/*Mobile Device*/
+.section-atas{
+    text-align: center;
+    color: #2D1D46;
+}
+
+.section-tengah{
+    display: flex;
+    border-collapse: collapse;
+    justify-content: center;
+}
+
+table, th, td{
+    display: block, flex;
+    border: 0;
+}
+
+.section-bawah{
+    display: grid;
+    justify-content: flex-start;
+    border: 1px solid black;
+}
+
+.pendidikan, .skill, .organisasi, .sosmed, .motivasi{
+    color: #2D1D46;
+    display: grid;
+    justify-content: flex-start;
+}
+
+/*Tablet Device*/
+@media(min-width: 768px) and (max-width: 992px){
+    .section-atas{
+        color: #5017FF;
+    }
+    .pendidikan, .skill, .organisasi, .sosmed, .motivasi{
+        color: #5017FF;
+    }
+}
+
+/*Desktop Device*/
+/*Media Query*/
+@media(min-width: 992px){
+    .section-atas{
+        color: rgba(180, 77, 8, 0.822);
+    }
+
+    .section-tengah{
+        display: flex;
+        justify-content: start;
+    }
+
+    table, th, td{
+        border: 1px solid black;
+    }
+
+    .section-bawah{
+        display: flex;
+        justify-content: center;
+    }
+
+    .pendidikan, .skill, .organisasi, .sosmed, .motivasi{
+        color:rgba(180, 77, 8, 0.822);
+        display: flex;
+        justify-content: start;
+    }
 }
