@@ -1,3 +1,4 @@
+//Membuat function baru untuk menentukan tanggal
 function baru() {
     //Menampilkan hari dengan string
     let a = new Date(); 
@@ -17,14 +18,16 @@ function baru() {
     
 }
 
+//Membuat Function Jam dengan di dalamnya terdapat function menentukan jam dan function animasi
 function clock(){
+  //Function untuk animasi
   function animation(span) {
     span.className = "turn";
     setTimeout(function() {
       span.className = "";
     }, 700);
   }
-  
+  //Function untuk menentukan jam
   function jam() {
     setInterval(function() {
       let waktu = new Date();
@@ -49,7 +52,7 @@ function clock(){
      }, 1000);
   }
   jam();
-  
+  //Function untuk memulai animasinya
   function jam2() {
     let spans = jam2.getElementByTagName('span');
     animation(spans[2]);
