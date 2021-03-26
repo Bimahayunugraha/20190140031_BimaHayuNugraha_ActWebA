@@ -290,7 +290,8 @@ table, th, td{
         display: flex;
         justify-content: center;
         color: whitesmoke;
-        font-size: 1.7rem;
+        font-size: 1.5rem;
+        font-family: montserrat;
         font-weight: bold;
         text-shadow: 4px 4px 3px rgba(0, 0, 0, 0.767);
     }
