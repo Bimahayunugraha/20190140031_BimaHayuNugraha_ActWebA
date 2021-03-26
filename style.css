@@ -264,7 +264,6 @@ table, th, td{
 /*Mobile Device*/
 @media(max-width: 768px) {
     .ikon {
-        padding-top: 35px;
         text-align: center;
     }
     
@@ -273,7 +272,6 @@ table, th, td{
         justify-content: center;
         font-family: montserrat;
         color: goldenrod;
-        padding-top: 40px;
         font-weight: bolder;
         text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.767);
     }
@@ -300,9 +298,8 @@ table, th, td{
         display: flex;
         justify-content: center;
         color: wheat;
-        font-size: 12px;
+        font-size: 10px;
         font-family: monospace;
-        padding-top: 20px;
         text-shadow: 4px 4px 3px rgba(0, 0, 0, 0.767);
     }
     
@@ -315,8 +312,7 @@ table, th, td{
         display: flex;
         justify-content: center;
         color: #FFB53E;
-        font-size: 12px;
-        padding-top: 30px;
+        font-size: 11px;
         font-family: monospace;
     }
     
@@ -334,7 +330,6 @@ table, th, td{
 /*Tablet Device*/
 @media(min-width: 768px) and (max-width: 992px) {
     .ikon {
-        padding-top: 35px;
         text-align: center;
     }
     
@@ -343,7 +338,6 @@ table, th, td{
         justify-content: center;
         font-family: montserrat;
         color: green;
-        padding-top: 25px;
         font-weight: bolder;
         text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.767);
     }
@@ -384,7 +378,6 @@ table, th, td{
         justify-content: center;
         color: yellow;
         font-size: 12px;
-        padding-top: 25px;
         font-family: monospace;
     }
     
@@ -403,14 +396,12 @@ table, th, td{
 /*Media Query*/
 @media(min-width: 992px) {
     .ikon {
-        padding-top: 25px;
         text-align: center;
     }
 
     .today{
         display: flex;
         justify-content: center;
-        padding-top: 35px;
         color: yellow;
         font-family: montserrat;
         text-shadow: 4px 4px 3px rgba(0, 0, 0, 0.767);
@@ -439,7 +430,6 @@ table, th, td{
         justify-content: center;
         color: wheat;
         font-size: 15px;
-        padding-top: 10px;
         font-family: monospace;
     }
 
@@ -453,7 +443,6 @@ table, th, td{
         color: whitesmoke;
         justify-content: center;
         font-size: 15px;
-        padding-top: 30px;
         font-family: monospace;
     }
 
