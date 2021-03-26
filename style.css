@@ -273,7 +273,7 @@ table, th, td{
         justify-content: center;
         font-family: montserrat;
         color: goldenrod;
-        padding-top: 25px;
+        padding-top: 40px;
         font-weight: bolder;
         text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.767);
     }
@@ -301,6 +301,7 @@ table, th, td{
         color: wheat;
         font-size: 12px;
         font-family: monospace;
+        padding-top: 20px;
         text-shadow: 4px 4px 3px rgba(0, 0, 0, 0.767);
     }
     
@@ -314,7 +315,7 @@ table, th, td{
         justify-content: center;
         color: #FFB53E;
         font-size: 12px;
-        padding-top: 25px;
+        padding-top: 30px;
         font-family: monospace;
     }
     
