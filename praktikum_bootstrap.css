@@ -1,0 +1,12 @@
+/*Pertemuan ke 5*/
+.hero-banner {
+    background-image: url('https://images.unsplash.com/photo-1605459619674-ad1d39981eae?ixid=MXwxMjA3fDB8MHx0b3BpYy1mZWVkfDV8YWV1NnJMLWo2ZXd8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');
+    background-size: cover;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.footer {
+    height: 50px;
+}

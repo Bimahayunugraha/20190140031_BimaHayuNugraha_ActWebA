@@ -95,3 +95,15 @@ dql.addListener(function(e){
   }
 });
 
+
+function validasi(){
+  let emailaddress = document.forms["myform"]["emailaddress"].value;
+  let password = document.forms["myform"]["password"].value;
+  if( emailaddress== "admin123@gmail.com" && password == "123"){
+    return true;
+  }
+  else{
+    alert("Username atau password yang Anda masukan SALAH");
+    return false;
+  }
+}
