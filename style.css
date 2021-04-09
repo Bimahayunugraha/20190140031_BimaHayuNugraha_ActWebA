@@ -470,10 +470,20 @@ table, th, td{
     }
 }
 
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.login {
+    display: flex;
+    flex-direction: column-reverse;
+}
 /*Mobile Device*/
 @media(max-width: 768px) {
     .login {
-        position: fixed;
+        justify-content: center;
         height: 110vw;
         width: 90vw;
     }
@@ -482,8 +492,19 @@ table, th, td{
 /*Tablet Device*/
 @media(min-width: 768px) and (max-width: 992px) {
     .login {
-        display: flex;
-        height: 8vw;
+        flex-direction: column;
+        justify-content: center;
+        flex: 50%;
         width: 50vw;
+    }
+}
+
+/*Desktop Device*/
+/*Media Query*/
+@media(min-width: 992px) {
+    .login {
+        display: flex;
+        position: absolute;
+        justify-content: center;
     }
 }
