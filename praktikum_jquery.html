@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <title>031_BimaHayuNugraha</title>
+  </head>
+  <body>
+    <style>
+      body {
+        background-color: #F1ECD5;
+      }
+  </style>
+
+    <!--Header Goes Here-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <img src="img/logo3d.png" class="navbar-brand" alt="" width="50" height="50">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent" style="font-size: 15pt;">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 nav" role="tablist">
+            <li class="nav-item">
+              <a class="nav-link active" tabindex="-1" aria-current="page" href="home.html">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" id="navbarLink" role="button" data-bs-toggle="dropdown" aria-expanded="false" href="#">Link</a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="https://github.com/Bimahayunugraha">Github</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Project Kuliah
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="index2.html">Project resonsive</a></li>
+                <li><a class="dropdown-item" href="tugas_praktikum_javascript.html">Project javascript</a></li>
+                <li><a class="dropdown-item" href="praktikum_bootstrap.html">Project bootstrap</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Nothing in here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portofolio" tabindex="-1" aria-disabled="true">Portofolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li>
+          </ul>
+          <li class="nav-item dropdown d-flex">
+              <span class="navbar-brand" style="font-size: 15pt;">Profile</span>
+              <a class="navbar-brand nav-link dropdown-toggle" id="navbarLink" role="button" data-bs-toggle="dropdown" aria-expanded="false" href="#">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="#188754" class="bi bi-person-square" viewBox="0 0 16 16">
+                      <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                      <path d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm12 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1v-1c0-1-1-4-6-4s-6 3-6 4v1a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12z"/>
+                  </svg>
+                </ul>
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="index2.html">My Profile</a></li>
+          </li>
+        </div>
+      </div>
+    </nav>
+  <!--Header Ends-->
+
+  <!--Hide Show-->
+  <h1 id="nama"></h1>
+  <p id="nim"></p>
+
+  <!--Fode-->
+  <h5 id="tanggal" style="display: none;">Magetan, 07 Desember 2000</h5>
+
+  <!--Slide-->
+  <div id="img" style="background-color: silver; display: none;">
+      <img src="https://doyanresep.com/wp-content/uploads/2020/03/resep-rawon-daging-sapi.jpg" 
+      alt="" height="350">
+      <img src="https://cdn.idntimes.com/content-images/post/20191217/hanhanny-60841941-1963894330381469-3916423929361306297-n-c5f0d13e8dbd0a9f273e96f152872cbc.jpg" 
+      alt="" height="350">
+      <img src="https://imeal.id/wp-content/uploads/rendang-sapi.jpg" 
+      alt="" height="350">
+      <img src="https://www.femina.co.id/images/images_article/004_001_1195_pic.jpg" 
+      alt="" height="350">
+      </div>
+      <br>
+
+      <!--Button Hide Show Toggle-->
+      <div class="mb-5">
+          <button id="hide" style="background-color: #5EB670; border: solid #5EB670; font-family: montserrat;">Sembunyikan</button>
+          <button id="show" style="background-color: #5EB670; border: solid #5EB670; font-family: montserrat;">Tampilkan</button>
+          <button id="toggle" style="background-color: #5EB670; border: solid #5EB670; font-family: montserrat;">Toggle</button>
+  
+          <!--Button Fade-->
+          <button id="fadeIn" style="background-color: #E42A5B; border: solid #E42A5B; color: white; font-family: montserrat;">Fade In</button>
+          <button id="fadeOut" style="background-color: #E42A5B; border: solid #E42A5B; color: white; font-family: montserrat;">Fade Out</button>
+          <button id="fadeToggle" style="background-color: #E42A5B; border: solid #E42A5B; color: white; font-family: montserrat;">Fade Toggle</button>
+  
+          <!--Button Slide-->
+          <button id="slideUp" style="background-color: #FFCB6D; border: solid #FFCB6D; color: purple; font-family: montserrat;">Slide Up</button>
+          <button id="slideDown" style="background-color: #FFCB6D; border: solid #FFCB6D; color: purple; font-family: montserrat;">Slide Down</button>
+          <button id="slideToggle" style="background-color: #FFCB6D; border: solid #FFCB6D; color: purple; font-family: montserrat;">Slide Toggle</button>
+      </div>
+
+    <script src="jquery.js"></script>
+    <script src="praktikum_jquery.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+  </body>
+</html>

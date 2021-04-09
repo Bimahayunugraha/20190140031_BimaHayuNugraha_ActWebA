@@ -7,156 +7,273 @@
     <title>031_BimaHayuNugraha</title>
   </head>
   <body>
-    <!--Header Goes Here-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">MyWebsite</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0 nav" role="tablist">
-              <li class="nav-item">
-                <a class="nav-link active" tabindex="-1" aria-current="page" href="home.html">Home</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" id="navbarLink" role="button" data-bs-toggle="dropdown" aria-expanded="false" href="#">Link</a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="https://github.com/Bimahayunugraha">Github</a></li>
-                </ul>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Project Kuliah
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="index2.html">Project resonsive</a></li>
-                  <li><a class="dropdown-item" href="tugas_praktikum_javascript.html">Project javascript</a></li>
-                  <li><a class="dropdown-item" href="praktikum_bootstrap.html">Project bootstrap</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Nothing in here</a></li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Contact</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-              </li>
-            </ul>
-            <li class="nav-item dropdown d-flex">
-                <span class="navbar-brand" style="font-size: 15pt;">Profile</span>
-                <a class="navbar-brand nav-link dropdown-toggle" id="navbarLink" role="button" data-bs-toggle="dropdown" aria-expanded="false" href="#">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="#188754" class="bi bi-person-square" viewBox="0 0 16 16">
-                        <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
-                        <path d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm12 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1v-1c0-1-1-4-6-4s-6 3-6 4v1a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12z"/>
-                    </svg>
+    <style>
+      body {
+        background-color: #252A48;
+      }
+    </style>
+        <!--Header Goes Here-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+          <div class="container-fluid">
+            <img src="img/logo3d.png" class="navbar-brand" alt="" width="50" height="50">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent" style="font-size: 15pt;">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0 nav" role="tablist">
+                <li class="nav-item">
+                  <a class="nav-link active" tabindex="-1" aria-current="page" href="home.html">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" id="navbarLink" role="button" data-bs-toggle="dropdown" aria-expanded="false" href="#">Link</a>
+                  <ul class="dropdown-menu bg-dark border border-info" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item text-info" href="https://github.com/Bimahayunugraha">Github</a></li>
                   </ul>
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="index2.html">My Profile</a></li>
-            </li>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Project Kuliah
+                  </a>
+                  <ul class="dropdown-menu bg-dark border border-info text-info" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item text-info" href="index2.html">Project resonsive</a></li>
+                    <li><a class="dropdown-item text-info" href="tugas_praktikum_javascript.html">Project javascript</a></li>
+                    <li><a class="dropdown-item text-info" href="praktikum_bootstrap.html">Project bootstrap</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item text-info" href="#">Nothing in here</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#portofolio" tabindex="-1" aria-disabled="true">Portofolio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html" tabindex="-1" aria-disabled="true">Contact</a>
+                </li>
+              </ul>
+              <li class="nav-item dropdown d-flex">
+                  <span class="navbar-brand" style="font-size: 15pt;">Profile</span>
+                  <a class="navbar-brand nav-link dropdown-toggle" id="navbarLink" role="button" data-bs-toggle="dropdown" aria-expanded="false" href="#">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="#188754" class="bi bi-person-square" viewBox="0 0 16 16">
+                          <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                          <path d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm12 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1v-1c0-1-1-4-6-4s-6 3-6 4v1a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12z"/>
+                      </svg>
+                    </ul>
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="index2.html">My Profile</a></li>
+              </li>
+            </div>
           </div>
-        </div>
-      </nav>
-    <!--Header Ends-->
+        </nav>
+      <!--Header Ends-->
 
-    <!--Home Goes Here-->
-    <div class="p-sm-5 container">
-        <div class="col-md-12 mb-1 container d-flex justify-content-center">
-            <div class="container d-flex justify-content-center" style="font-family: montserrat; font-size: 20pt;">
-                Hello, Welcome!!</div>
-        </div>
-    </div>
-    <!--Home Ends-->
+ <!--Banner Goes Here-->
+ <section>
+  <div class="hero-banner container-fluid bg-success p-2 text-truncate text-muted text-uppercase d-flex justify-content-center">
+      <div class="row mt-2">
+          <div class="col-md-5">
+            <h1 style="color: darkgrey; text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.767);">Hello, Welcome</h1>
+          </div>
+      </div>
+  </div>
+</section>
+<!--Bannder End-->>
 
-    
+
     <!--Features Goes Here-->
     <div class="container">
-      <div class="row mt-5">
-          <div class="col-md-12 col-lg-4">
-            <div class="card" style="width: 18rem;">
-              <img src="https://krs.umy.ac.id/FotoMhs/2019/20190140031.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">This is my CV</h5>
-                <p class="card-text">Disini saya melampirkan cv lengkap dari saya.</p>
-              </div>
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item">Nama            : Bima Hayu Nugraha</li>
-                <li class="list-group-item">TTL             : Magetan, 07 Desember 2000</li>
-                <li class="list-group-item">Jenis Kelamin   : Laki-Laki</li>
-                <li class="list-group-item">Agama           : Islam</li>
-                <li class="list-group-item">Status Nikah    : Belum Menikah</li>
-                <li class="list-group-item">Kewarganegaraan : Indonesia</li>
-                <li class="list-group-item">Alamat          : Ds.Mantren, RT 09/ RW 03, Kec.Karangrejo, Kab.Magetan, Prov. Jawa Timur</li>
-                <li class="list-group-item">Nomor Telepon   : 087758524277</li>
-                <li class="list-group-item">Email           : bimahayunugraha@gmail.com</li>
-                <li class="list-group-item">Status          : Mahasiswa</li>
-                <li class="list-group-item">Tempat Kuliah   : Universitas Muhammadiyah Yogyakarta</li>
-                <li class="list-group-item">Skill           : Web Developer, Editing Video and Photo, Design, UI/UX Designer</li>
+      <div class="card mb-3 border border-success shadow p-3 mb-5 bg-transparent rounded-2" style="max-width: 740px;">
+        <div class="row g-md-5 g-5">
+          <div class="col-md-4 col-lg-4">
+            <img src="https://krs.umy.ac.id/FotoMhs/2019/20190140031.jpg" 
+            class="rounded-3 w-auto h-auto mx-auto shadow border border-dark" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-header bg-transparent border-success">
+              <h4 class="text-uppercase text-info">CV</h4>
+            </div>
+            <div class="card-body bg-dark border border-dark">
+              <h5 class="card-title mb-3" style="color: darkcyan;">Portofolio</h5>
+              <ul class="list-group list-group-flush container"  style="font-family: montserrat;">
+                <li class="list-group-item border border-info bg-transparent" style="color: grey;">Nama            : Bima Hayu Nugraha.</li>
+                <li class="list-group-item border border-info bg-transparent" style="color: grey;">TTL             : Magetan, 07 Desember 2000.</li>
+                <li class="list-group-item border border-info bg-transparent" style="color: grey;">Jenis Kelamin   : Laki-Laki</li>
+                <li class="list-group-item border border-info bg-transparent" style="color: grey;">Agama           : Islam</li>
+                <li class="list-group-item border border-info bg-transparent" style="color: grey;">Status Nikah    : Belum Menikah</li>
+                <li class="list-group-item border border-info bg-transparent" style="color: grey;">Kewarganegaraan : Indonesia</li>
+                <li class="list-group-item border border-info bg-transparent" style="color: grey;">Alamat          : Ds.Mantren, RT 09/ RW 03, Kec.Karangrejo, Kab.Magetan, Prov. Jawa Timur</li>
+                <li class="list-group-item border border-info bg-transparent" style="color: grey;">Nomor Telepon   : 087758524277</li>
+                <li class="list-group-item border border-info bg-transparent" style="color: grey;">Email           : bimahayunugraha@gmail.com</li>
+                <li class="list-group-item border border-info bg-transparent" style="color: grey;">Skill           : Web Developer, Editing Video and Photo, Design, UI/UX Designer</li>
+                <p class="card-text mt-3"><small class="text-muted">Menjadi Optimis adalah Sesuatu Hal untuk Dapat Mencapai Kesuksesan</small></p>
               </ul>
             </div>
+            <div class="card-footer bg-transparent border-success font-monospace" style="color: darkgray;">Mahasiswa Teknologi Informasi, Universitas Muhammadiyah Yogyakarta</div>
+          </div>
         </div>
       </div>
-  </div>
-    <!--Features Ends-->
+    </div>
+    <!--Features End-->
 
-    <div class="p-5 container">
-      <div class="col-md-12 mb-1 container d-flex justify-content-center">
-          <div class="container d-flex justify-content-center" style="font-family: montserrat; font-size: 20pt;">
-              Dibawah ini adalah hasil praktikum saya</div>
+ <!--Banner Goes Here-->
+ <section>
+  <div class="hero-banner container-fluid bg-dark p-2 shadow text-truncate text-muted text-uppercase d-flex justify-content-center">
+    <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" tabindex="0">
+      <div class="row mt-2">
+        <div id="portofolio">
+          <div class="col-md-1">
+            <h1 style="color: darkgrey; text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.767);">Project Kuliah</h1>
+          </div>
+        </div>
       </div>
+    </div>
   </div>
+</section>
+<!--Bannder End-->>
 
     <!--Features Goes Here-->
     <div class="container">
       <div class="row mt-5">
           <div class="col-md-12 col-lg-4">
-            <div class="card mb-5">
-                <img src="img/profil.jpg" 
-                class="card-img-top" alt="..." height= 300px" style="object-fit: cover;">
-                <div class="card-body">
-                  <h5 class="card-title">Praktikum Responsive</h5>
+            <div class="card mb-5 border border-dark shadow rounded-2 bg-dark">
+              <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="http://www.ilmuwebsite.com/wp-content/uploads/2014/04/responsive.png" class="d-block w-100 card-img-top" 
+                    alt="..." height= 300px" style="object-fit: cover;">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5 class="text-uppercase text-primary" style="font-family: montserrat; font-weight: bold;">Responsive</h5>
+                    </div>
+                  </div>
+                  <div class="carousel-item" data-bs-interval="2000">
+                    <img src="img/profil.jpg" class="d-block w-100 card-img-top" 
+                    alt="..." height= 300px" style="object-fit: cover;">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5 class="text-white text-uppercase" style="font-family: montserrat;">Project Responsive</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+               <div class="card-body">
+                  <h5 class="card-title text-warning">Praktikum Responsive</h5>
                   <h6 class="card-subtitle mb-2 text-muted">Bima Hayu Nugraha 20190140031 Kelas A</h6>
-                  <p class="card-text">Ini adalah tugas praktikum sebelumnya yaitu praktikum responsive. Silahkan klik "Klik Disini" untuk melihat hasil praktikum saya.</p>
-                  <p class="card-text"><small class="text-muted">Praktikum Pertemuan ke 3</small></p>
+                  <p class="card-text text-info">Ini adalah tugas praktikum sebelumnya yaitu praktikum responsive. Silahkan klik "Klik Disini" untuk melihat hasil praktikum saya.</p>
+                  <p class="card-text"><small class="text-muted font-monospace">Praktikum Pertemuan ke 3</small></p>
                 </div>
                 <div class="card-body">
-                  <a href="index2.html" class="btn btn-success">Klik Disini</a>
+                  <a href="index2.html" class="btn btn-info" style="font-family: montserrat;">Klik Disini</a>
                 </div>
             </div>
         </div>
         <div class="col-md-12 col-lg-4">
-          <div class="card mb-5">
-              <img src="img/icon.png" 
-              class="card-img-top" alt="..." height= 300px" style="object-fit: cover;">
+          <div class="card mb-5 border border-dark shadow rounded-2 bg-dark">
+            <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                  <img src="https://magadanski.com/wp-content/uploads/2019/01/js-logo-1.png" class="d-block w-100 card-img-top" 
+                  alt="..." height= 300px" style="object-fit: cover;">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5 class="text-uppercase text-dark" style="font-family: montserrat; font-weight: bold;">Javascript</h5>
+                  </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                  <img src="img/icon.png" class="d-block w-100 card-img-top" 
+                  alt="..." height= 300px" style="object-fit: cover;">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5 class="text-dark text-uppercase" style="font-family: montserrat;">Project Javascript</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
               <div class="card-body">
-                <h5 class="card-title">Praktikum Javascript</h5>
+                <h5 class="card-title text-warning">Praktikum Javascript</h5>
                 <h6 class="card-subtitle mb-2 text-muted">Bima Hayu Nugraha 20190140031 Kelas A</h6>
-                <p class="card-text">Ini adalah tugas praktikum sebelumnya yaitu praktikum javascript. Silahkan klik "Klik Disini" untuk melihat hasil praktikum saya.</p>
-                <p class="card-text"><small class="text-muted">Praktikum Pertemuan ke 4</small></p>
+                <p class="card-text text-info">Ini adalah tugas praktikum sebelumnya yaitu praktikum javascript. Silahkan klik "Klik Disini" untuk melihat hasil praktikum saya.</p>
+                <p class="card-text"><small class="text-muted font-monospace">Praktikum Pertemuan ke 4</small></p>
               </div>
               <div class="card-body">
-                <a href="tugas_praktikum_javascript.html" class="btn btn-success">Klik Disini</a>
+                <a href="tugas_praktikum_javascript.html" class="btn btn-info" style="font-family: montserrat;">Klik Disini</a>
               </div>
           </div>
       </div>
       <div class="col-md-12 col-lg-4">
-        <div class="card mb-5">
-            <img src="https://getbootstrap.com/docs/5.0/assets/brand/bootstrap-logo.svg" 
-            class="card-img-top" alt="..." height= 300px" style="object-fit: cover;">
+        <div class="card mb-5 border border-dark shadow rounded-2 bg-dark">
+          <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="10000">
+                <img src="https://cdn.mansfeld.pl/wp-content/uploads/2020/04/kurs-bootstrap-5-1170x720.png" class="d-block w-100 card-img-top" 
+                alt="..." height= 300px" style="object-fit: cover;">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 class="text-uppercase text-dark" style="font-family: montserrat; font-weight: bold;">Bootstrap</h5>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="img/eiger.png" class="d-block w-100 card-img-top" 
+                alt="..." height= 300px" style="object-fit: cover;">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 class="text-dark text-uppercase" style="font-family: montserrat;">Project Bootstrap</h5>
+                </div>
+              </div>
+            </div>
+          </div>
             <div class="card-body">
-              <h5 class="card-title">Praktikum Bootstrap</h5>
+              <h5 class="card-title text-warning">Praktikum Bootstrap</h5>
               <h6 class="card-subtitle mb-2 text-muted">Bima Hayu Nugraha 20190140031 Kelas A</h6>
-              <p class="card-text">Dengan ini saya melampirkan tugas praktikum bootstrap. Silahkan klik "Klik Disini" untuk melihat hasil praktikum saya.</p>
-              <p class="card-text"><small class="text-muted">Praktikum Pertemuan ke 5 - Terbaru</small></p>
+              <p class="card-text text-info">Dengan ini saya melampirkan tugas praktikum bootstrap. Silahkan klik "Klik Disini" untuk melihat hasil praktikum saya.</p>
+              <p class="card-text"><small class="text-muted font-monospace">Praktikum Pertemuan ke 5</small></p>
             </div>
             <div class="card-body">
-              <a href="praktikum_bootstrap.html" class="btn btn-success">Klik Disini</a>
+              <a href="praktikum_bootstrap.html" class="btn btn-info" style="font-family: montserrat;">Klik Disini</a>
             </div>
         </div>
-    </div>
       </div>
+      <div class="col-md-12 col-lg-4">
+        <div class="card mb-5 border border-dark shadow rounded-2 bg-dark">
+          <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="10000">
+                <img src="https://horoshiy-otzyv.ru/wp-content/uploads/2018/03/jquery.png" class="d-block w-100 card-img-top" 
+                alt="..." height= 300px" style="object-fit: cover;">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 class="text-uppercase text-warning" style="font-family: montserrat; font-weight: bold;">Jquery</h5>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="https://www.hostinger.com.br/tutoriais/wp-content/uploads/sites/12/2019/01/O-que-e-jquery.png" class="d-block w-100 card-img-top" 
+                alt="..." height= 300px" style="object-fit: cover;">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 class="text-dark text-uppercase" style="font-family: montserrat;">Project Jquery</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+            <div class="card-body">
+              <h5 class="card-title text-warning">Praktikum Jquery</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Bima Hayu Nugraha 20190140031 Kelas A</h6>
+              <p class="card-text text-info">Dengan ini saya melampirkan tugas praktikum jquery. Silahkan klik "Klik Disini" untuk melihat hasil praktikum saya.</p>
+              <p class="card-text"><small class="text-muted font-monospace">Praktikum Pertemuan ke 6 - Terbaru</small></p>
+            </div>
+            <div class="card-body">
+              <a href="praktikum_jquery.html" class="btn btn-info" style="font-family: montserrat;">Klik Disini</a>
+            </div>
+        </div>
+      </div>
+    </div>
   </div>
     <!--Features Ends-->
 
