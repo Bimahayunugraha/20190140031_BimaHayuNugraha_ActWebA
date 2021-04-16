@@ -1,510 +1,813 @@
 /*CSS Pertemuan ke 2*/
-.produk{
-    border: 2px solid black;
-    background: url(img/back.jpg);
-    background-size: cover;
-    padding-bottom: 550px;
+.produk {
+  border: 2px solid black;
+  background: url(img/back.jpg);
+  background-size: cover;
+  padding-bottom: 550px;
 }
 
-.gambar{
-    position: relative;
-    top: 20px;
-    float: left;
-    left: 40px;
+.gambar {
+  position: relative;
+  top: 20px;
+  float: left;
+  left: 40px;
 }
 
-.gambar2{
-    position: relative;
-    top: 20px;
-    float: left;
-    left: 45px;
+.gambar2 {
+  position: relative;
+  top: 20px;
+  float: left;
+  left: 45px;
 }
 
-.gambar3{
-    position: relative;
-    top: 175px;
-    float: left;
-    right: 260px;
+.gambar3 {
+  position: relative;
+  top: 175px;
+  float: left;
+  right: 260px;
 }
 
-.gambar4{
-    position: relative;
-    top: 175px;
-    float: left;
-    right: 255px;
+.gambar4 {
+  position: relative;
+  top: 175px;
+  float: left;
+  right: 255px;
 }
 
-.judul{
-    position: relative;
-    float: left;
-    left: 27%;
-    bottom: 140px;
+.judul {
+  position: relative;
+  float: left;
+  left: 27%;
+  bottom: 140px;
 }
 
-.harga{
-    font-size: 10px;
-    position: relative;
-    top: 65px;
-    right: 210px;
-    text-decoration: line-through;
-    color: #929292;
+.harga {
+  font-size: 10px;
+  position: relative;
+  top: 65px;
+  right: 210px;
+  text-decoration: line-through;
+  color: #929292;
 }
 
-.harga2{
-    font-size: 20px;
-    -webkit-box-align: center;
-    align-items: center;
-    font-weight: 500;
-    color: #ee4d2d;
-    position: relative;
-    right: 130px;
-    top: 18px;
+.harga2 {
+  font-size: 20px;
+  -webkit-box-align: center;
+  align-items: center;
+  font-weight: 500;
+  color: #ee4d2d;
+  position: relative;
+  right: 130px;
+  top: 18px;
 }
 
-.diskon{
-    font-size: 12px;
-    position: relative;
-    float: left;
-    right: 250px;
-    bottom: 77px;
-    color: #fff;
-    text-transform: uppercase;
-    background: rgb(238, 77, 45);
-    border-radius: 2px;
-    border-top-left-radius: 2px;
-    border-top-right-radius: 2px;
-    border-bottom-right-radius: 2px;
-    border-bottom-left-radius: 2px;
-    padding: 2px 4px;
-    padding-top: 0px;
-    padding-right: 0px;
-    padding-bottom: 0px;
-    padding-left: 2px;
-    font-weight: 600;
+.diskon {
+  font-size: 12px;
+  position: relative;
+  float: left;
+  right: 250px;
+  bottom: 77px;
+  color: #fff;
+  text-transform: uppercase;
+  background: rgb(238, 77, 45);
+  border-radius: 2px;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+  border-bottom-left-radius: 2px;
+  padding: 2px 4px;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 2px;
+  font-weight: 600;
 }
 
-.page_deskripsi{
-    position: relative;
-    box-shadow: 0 1px 1px 0 rgb(0 0 0 / 5%);
-    border-radius: 0.125px;
-    overflow: hidden;
-    background:rgb(255, 255, 255);
-    width: 51.5%;
-    bottom: 100px;
-    float: left;
-    left: 390px;
-    padding: 4px 6px;
-    padding-top: 100px;
-    padding-right: 5px;
-    padding-bottom: 400px;
-    padding-left: 6px;
+.page_deskripsi {
+  position: relative;
+  box-shadow: 0 1px 1px 0 rgb(0 0 0 / 5%);
+  border-radius: 0.125px;
+  overflow: hidden;
+  background: rgb(255, 255, 255);
+  width: 51.5%;
+  bottom: 100px;
+  float: left;
+  left: 390px;
+  padding: 4px 6px;
+  padding-top: 100px;
+  padding-right: 5px;
+  padding-bottom: 400px;
+  padding-left: 6px;
 }
 
-.page_produk{
-    position: relative;
-    font-family: 'Roboto';
-    float: left;
-    left: 415px;
-    bottom: 580px;
-    background: rgba(0,0,0,.02);
-    width: 47.7%;
-    color: rgba(0,0,0,.87);
-    font-size: 18px;
-    padding: 4px 6px;
-    padding-top: 12px;
-    padding-right: 5px;
-    padding-bottom: 12px;
-    padding-left: 8px;
-    text-transform: capitalize;
-    line-height: 1;
+.page_produk {
+  position: relative;
+  font-family: "Roboto";
+  float: left;
+  left: 415px;
+  bottom: 580px;
+  background: rgba(0, 0, 0, 0.02);
+  width: 47.7%;
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 18px;
+  padding: 4px 6px;
+  padding-top: 12px;
+  padding-right: 5px;
+  padding-bottom: 12px;
+  padding-left: 8px;
+  text-transform: capitalize;
+  line-height: 1;
 }
 
-.spesifikasi_produk{
-    position: relative;
-    float: left;
-    right: 220px;
-    bottom: 530px;
+.spesifikasi_produk {
+  position: relative;
+  float: left;
+  right: 220px;
+  bottom: 530px;
 }
 
-.page_produk1{
-    position: relative;
-    font-family: 'Roboto';
-    float: left;
-    left: 415px;
-    bottom: 520px;
-    background: rgba(0,0,0,.02);
-    width: 47.7%;
-    color: rgba(0,0,0,.87);
-    font-size: 18px;
-    padding: 4px 6px;
-    padding-top: 12px;
-    padding-right: 5px;
-    padding-bottom: 12px;
-    padding-left: 8px;
-    text-transform: capitalize;
-    line-height: 1;
+.page_produk1 {
+  position: relative;
+  font-family: "Roboto";
+  float: left;
+  left: 415px;
+  bottom: 520px;
+  background: rgba(0, 0, 0, 0.02);
+  width: 47.7%;
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 18px;
+  padding: 4px 6px;
+  padding-top: 12px;
+  padding-right: 5px;
+  padding-bottom: 12px;
+  padding-left: 8px;
+  text-transform: capitalize;
+  line-height: 1;
 }
 
-.deskripsi_produk{
-    position: relative;
-    float: left;
-    right: 220px;
-    bottom: 475px;
+.deskripsi_produk {
+  position: relative;
+  float: left;
+  right: 220px;
+  bottom: 475px;
 }
 
-.button{
-    position: relative;
-    font-family: 'Roboto';
-    float: left;
-    left: 945px;
-    bottom: 490px;
-    background: #ee4d2d;
-    width: 8.3%;
-    font-size: 18px;
-    padding: 4px 6px;
-    padding-top: 12px;
-    padding-right: 5px;
-    padding-bottom: 12px;
-    padding-left: 8px;
-    text-transform: capitalize;
-    line-height: 1;
+.button {
+  position: relative;
+  font-family: "Roboto";
+  float: left;
+  left: 945px;
+  bottom: 490px;
+  background: #ee4d2d;
+  width: 8.3%;
+  font-size: 18px;
+  padding: 4px 6px;
+  padding-top: 12px;
+  padding-right: 5px;
+  padding-bottom: 12px;
+  padding-left: 8px;
+  text-transform: capitalize;
+  line-height: 1;
 }
 
 /*CSS Pertemuan ke 3*/
 
 /*Mobile Device*/
-.section-atas{
-    text-align: center;
-    color: #2D1D46;
+.section-atas {
+  text-align: center;
+  color: #2d1d46;
 }
 
-.section-tengah{
-    display: flex;
-    border-collapse: collapse;
-    justify-content: center;
+.section-tengah {
+  display: flex;
+  border-collapse: collapse;
+  justify-content: center;
 }
 
-table, th, td{
-    display: block, flex;
-    border: 0;
+table,
+th,
+td {
+  display: block, flex;
+  border: 0;
 }
 
-.section-bawah{
-    display: grid;
-    justify-content: flex-start;
-    border: 1px solid black;
+.section-bawah {
+  display: grid;
+  justify-content: flex-start;
+  border: 1px solid black;
 }
 
-.pendidikan, .skill, .organisasi, .sosmed, .motivasi{
-    color: #2D1D46;
-    display: grid;
-    justify-content: flex-start;
+.pendidikan,
+.skill,
+.organisasi,
+.sosmed,
+.motivasi {
+  color: #2d1d46;
+  display: grid;
+  justify-content: flex-start;
 }
 
 /*Tablet Device*/
-@media(min-width: 768px) and (max-width: 992px){
-    .section-atas{
-        color: #5017FF;
-    }
-    .pendidikan, .skill, .organisasi, .sosmed, .motivasi{
-        color: #5017FF;
-    }
+@media (min-width: 768px) and (max-width: 992px) {
+  .section-atas {
+    color: #5017ff;
+  }
+  .pendidikan,
+  .skill,
+  .organisasi,
+  .sosmed,
+  .motivasi {
+    color: #5017ff;
+  }
 }
 
 /*Desktop Device*/
 /*Media Query*/
-@media(min-width: 992px){
-    .section-atas{
-        color: rgba(180, 77, 8, 0.822);
-    }
+@media (min-width: 992px) {
+  .section-atas {
+    color: rgba(180, 77, 8, 0.822);
+  }
 
-    .section-tengah{
-        display: flex;
-        justify-content: start;
-    }
+  .section-tengah {
+    display: flex;
+    justify-content: start;
+  }
 
-    table, th, td{
-        border: 1px solid black;
-    }
+  table,
+  th,
+  td {
+    border: 1px solid black;
+  }
 
-    .section-bawah{
-        display: flex;
-        justify-content: center;
-    }
+  .section-bawah {
+    display: flex;
+    justify-content: center;
+  }
 
-    .pendidikan, .skill, .organisasi, .sosmed, .motivasi{
-        color:rgba(180, 77, 8, 0.822);
-        display: flex;
-        justify-content: start;
-    }
+  .pendidikan,
+  .skill,
+  .organisasi,
+  .sosmed,
+  .motivasi {
+    color: rgba(180, 77, 8, 0.822);
+    display: flex;
+    justify-content: start;
+  }
 }
-
 
 /*CSS Pertemuan ke 4*/
 
 /*Tampilan Page*/
 .tampilan {
-    margin: 0; 
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 /*Background*/
 .bg {
-    background-image: url('img/backkotak.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    height: 100vh;
+  background-image: url("img/backkotak.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
 }
 
 /*Mobile Device*/
-@media(max-width: 768px) {
-    .ikon {
-        text-align: center;
-    }
-    
-    .today{
-        display: flex;
-        justify-content: center;
-        font-family: montserrat;
-        color: goldenrod;
-        font-weight: bolder;
-        text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.767);
-    }
-    .responsive {
-        display: block;
-        text-align: center;
-        font-family: montserrat;
-        color: whitesmoke;
-        font-weight: bold;
-        text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.767);
-    }
-    
-    .responsive-jam{
-        display: flex;
-        justify-content: center;
-        color: whitesmoke;
-        font-size: 1.5rem;
-        font-family: montserrat;
-        font-weight: bold;
-        text-shadow: 4px 4px 3px rgba(0, 0, 0, 0.767);
-    }
-    
-    .note {
-        display: flex;
-        justify-content: center;
-        color: wheat;
-        font-size: 10px;
-        font-family: monospace;
-        text-shadow: 4px 4px 3px rgba(0, 0, 0, 0.767);
-    }
-    
-    .klik {
-        display: flex;
-        justify-content: center;
-    }
-    
-    .link-awal {
-        display: flex;
-        justify-content: center;
-        color: #FFB53E;
-        font-size: 11px;
-        font-family: monospace;
-    }
-    
-    .hak-cipta {
-        display: flex;
-        justify-content: center;
-        color: white;
-        font-family: montserrat;
-        font-size: 12px;
-        padding-top: 5px;
-        text-shadow: 5px 5px 4px rgba(0, 0, 0, 0.767);
-    }
+@media (max-width: 768px) {
+  .ikon {
+    text-align: center;
+  }
+
+  .today {
+    display: flex;
+    justify-content: center;
+    font-family: montserrat;
+    color: goldenrod;
+    font-weight: bolder;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.767);
+  }
+  .responsive {
+    display: block;
+    text-align: center;
+    font-family: montserrat;
+    color: whitesmoke;
+    font-weight: bold;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.767);
+  }
+
+  .responsive-jam {
+    display: flex;
+    justify-content: center;
+    color: whitesmoke;
+    font-size: 1.5rem;
+    font-family: montserrat;
+    font-weight: bold;
+    text-shadow: 4px 4px 3px rgba(0, 0, 0, 0.767);
+  }
+
+  .note {
+    display: flex;
+    justify-content: center;
+    color: wheat;
+    font-size: 10px;
+    font-family: monospace;
+    text-shadow: 4px 4px 3px rgba(0, 0, 0, 0.767);
+  }
+
+  .klik {
+    display: flex;
+    justify-content: center;
+  }
+
+  .link-awal {
+    display: flex;
+    justify-content: center;
+    color: #ffb53e;
+    font-size: 11px;
+    font-family: monospace;
+  }
+
+  .hak-cipta {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: montserrat;
+    font-size: 12px;
+    padding-top: 5px;
+    text-shadow: 5px 5px 4px rgba(0, 0, 0, 0.767);
+  }
 }
 
 /*Tablet Device*/
-@media(min-width: 768px) and (max-width: 992px) {
-    .ikon {
-        text-align: center;
-    }
-    
-    .today{
-        display: flex;
-        justify-content: center;
-        font-family: montserrat;
-        color: green;
-        font-weight: bolder;
-        text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.767);
-    }
-    .responsive {
-        display: block;
-        text-align: center;
-        font-family: montserrat;
-        color: green;
-        font-weight: bold;
-        text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.767);
-    }
-    
-    .responsive-jam{
-        display: flex;
-        justify-content: center;
-        color: green;
-        font-size: 1.5rem;
-        font-weight: bold;
-        font-family: montserrat;
-        text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.767);
-    }
-    
-    .note {
-        display: flex;
-        justify-content: center;
-        color: wheat;
-        font-size: 14.5px;
-        font-family: monospace;
-    }
-    
-    .klik {
-        display: flex;
-        justify-content: center;
-    }
-    
-    .link-awal {
-        display: flex;
-        justify-content: center;
-        color: yellow;
-        font-size: 12px;
-        font-family: monospace;
-    }
-    
-    .hak-cipta {
-        display: flex;
-        justify-content: center;
-        color: white;
-        font-family: montserrat;
-        font-size: 12px;
-        padding-top: 5px;
-        text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.767);
-    }
+@media (min-width: 768px) and (max-width: 992px) {
+  .ikon {
+    text-align: center;
+  }
+
+  .today {
+    display: flex;
+    justify-content: center;
+    font-family: montserrat;
+    color: green;
+    font-weight: bolder;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.767);
+  }
+  .responsive {
+    display: block;
+    text-align: center;
+    font-family: montserrat;
+    color: green;
+    font-weight: bold;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.767);
+  }
+
+  .responsive-jam {
+    display: flex;
+    justify-content: center;
+    color: green;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: montserrat;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.767);
+  }
+
+  .note {
+    display: flex;
+    justify-content: center;
+    color: wheat;
+    font-size: 14.5px;
+    font-family: monospace;
+  }
+
+  .klik {
+    display: flex;
+    justify-content: center;
+  }
+
+  .link-awal {
+    display: flex;
+    justify-content: center;
+    color: yellow;
+    font-size: 12px;
+    font-family: monospace;
+  }
+
+  .hak-cipta {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: montserrat;
+    font-size: 12px;
+    padding-top: 5px;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.767);
+  }
 }
 
 /*Desktop Device*/
 /*Media Query*/
-@media(min-width: 992px) {
-    .ikon {
-        text-align: center;
-    }
+@media (min-width: 992px) {
+  .ikon {
+    text-align: center;
+  }
 
-    .today{
-        display: flex;
-        justify-content: center;
-        color: yellow;
-        font-family: montserrat;
-        text-shadow: 4px 4px 3px rgba(0, 0, 0, 0.767);
-    }
-    .responsive{
-        display: block;
-        text-align: center;
-        font-weight: bold;
-        font-family: montserrat;
-        color: yellow;
-        text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.767);
-    }
+  .today {
+    display: flex;
+    justify-content: center;
+    color: yellow;
+    font-family: montserrat;
+    text-shadow: 4px 4px 3px rgba(0, 0, 0, 0.767);
+  }
+  .responsive {
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    font-family: montserrat;
+    color: yellow;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.767);
+  }
 
-    .responsive-jam {
-        display: flex;
-        justify-content: center;
-        font-family: montserrat;
-        font-weight: bolder;
-        word-spacing: 2px;
-        color: yellow;
-        text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.767);
-    }
+  .responsive-jam {
+    display: flex;
+    justify-content: center;
+    font-family: montserrat;
+    font-weight: bolder;
+    word-spacing: 2px;
+    color: yellow;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.767);
+  }
 
-    .note {
-        display: flex;
-        justify-content: center;
-        color: wheat;
-        font-size: 15px;
-        font-family: monospace;
-        text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.767);
-    }
+  .note {
+    display: flex;
+    justify-content: center;
+    color: wheat;
+    font-size: 15px;
+    font-family: monospace;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.767);
+  }
 
-    .klik {
-        display: flex;
-        justify-content: center;
-    }
+  .klik {
+    display: flex;
+    justify-content: center;
+  }
 
-    .link-awal {
-        display: flex;
-        color: whitesmoke;
-        justify-content: center;
-        font-size: 15px;
-        font-family: monospace;
-    }
+  .link-awal {
+    display: flex;
+    color: whitesmoke;
+    justify-content: center;
+    font-size: 15px;
+    font-family: monospace;
+  }
 
-    .hak-cipta {
-        display: flex;
-        justify-content: center;
-        color: white;
-        font-family: montserrat;
-        font-size: 15px;
-        text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.767);
-    }
+  .hak-cipta {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: montserrat;
+    font-size: 15px;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.767);
+  }
 
-    /*Ukuran jam di mode dekstop*/
-    #jam span {
-        font-size: 25px;
-        letter-spacing: 1px;
-    }
+  /*Ukuran jam di mode dekstop*/
+  #jam span {
+    font-size: 25px;
+    letter-spacing: 1px;
+  }
 
-    /*Durasi Animasi*/
-    span.turn {
-        animation: turn 0.7s ease;
+  /*Durasi Animasi*/
+  span.turn {
+    animation: turn 0.7s ease;
+  }
+
+  /*Putaran Animasi dibagian secondsnya*/
+  @keyframes turn {
+    0% {
+      transform: rotateX(0deg);
     }
-    
-    /*Putaran Animasi dibagian secondsnya*/
-    @keyframes turn {
-        0% {transform: rotateX(0deg)}
-        100% {transform: rotateX(360deg)}
+    100% {
+      transform: rotateX(360deg);
     }
+  }
 }
 
 * {
-    margin: 0%;
-    padding: 0%;
-    box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
 }
 
 .login {
-    display: flex;
-    flex-direction: column-reverse;
+  display: flex;
+  flex-direction: column-reverse;
 }
 /*Mobile Device*/
-@media(max-width: 768px) {
-    .login {
-        justify-content: center;
-        height: 110vw;
-        width: 90vw;
-    }
+@media (max-width: 768px) {
+  .login {
+    justify-content: center;
+    height: 110vw;
+    width: 90vw;
+  }
 }
 
 /*Tablet Device*/
-@media(min-width: 768px) and (max-width: 992px) {
-    .login {
-        flex-direction: column;
-        justify-content: center;
-        flex: 50%;
-        width: 50vw;
-    }
+@media (min-width: 768px) and (max-width: 992px) {
+  .login {
+    flex-direction: column;
+    justify-content: center;
+    flex: 50%;
+    width: 50vw;
+  }
 }
 
 /*Desktop Device*/
 /*Media Query*/
-@media(min-width: 992px) {
-    .login {
-        display: flex;
-        position: absolute;
-        justify-content: center;
-    }
+@media (min-width: 992px) {
+  .login {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+  }
+}
+
+/*CSS Portfolio*/
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+button {
+  font-family: "Poppins", sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+.rotate-100-deg {
+  transform: rotate(100deg);
+}
+.jumbotron {
+  padding-top: 6rem;
+  background-color: #252a48;
+}
+
+#projects {
+  background-color: #003586;
+}
+
+section {
+  padding-top: 5rem;
+}
+
+.nav-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 0px 40px;
+  transition: 0.5s;
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 999;
+}
+.nav-container.active {
+  background-color: #fff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+.nav-container .nav-logo {
+  position: relative;
+}
+.nav-container .nav-logo a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-container .nav-logo a:hover {
+  text-decoration: none;
+}
+.nav-container .nav-logo img {
+  font-size: 22px;
+  font-weight: 300;
+  color: #fff;
+  flex: 1;
+}
+.nav-container .nav-logo h3 span {
+  font-family: "Poppins";
+  font-size: 25px;
+  font-weight: 300;
+  letter-spacing: 0.3px;
+  margin: auto 0;
+  color: #fff;
+}
+.nav-container.active .nav-logo i,
+.nav-container.active .nav-logo h3 span {
+  color: #0dcaf0;
+}
+.nav-container .nav-list-container {
+  position: relative;
+  overflow: hidden;
+  transition: 0.5s;
+  width: auto;
+}
+.nav-container .nav-list-container .nav-list {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  margin: auto 0;
+}
+.nav-container .nav-list-container .nav-list li {
+  position: relative;
+  padding: 10px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: 0.5s;
+  text-align: center;
+  margin: 0 5px;
+}
+.nav-container .nav-list-container .nav-list li a {
+  color: #4e73df;
+}
+.nav-container .nav-list-container .nav-list li a:hover {
+  text-decoration: none;
+}
+.nav-container .nav-list-container .nav-list li:hover {
+  background-color: #fff;
+  border-radius: 3px;
+}
+.nav-container.active .nav-list-container .nav-list li:hover {
+  background-color: #4e73df;
+  border-radius: 3px;
+}
+.nav-container .nav-list-container .nav-list li:hover a {
+  color: #4e73df;
+}
+.nav-container.active .nav-list-container .nav-list li:hover a {
+  color: #fff;
+}
+.nav-container .nav-toggle {
+  display: none;
+  cursor: pointer;
+}
+.scrolling-container {
+  position: fixed;
+  bottom: 5%;
+  right: 5%;
+  padding: 12px 15px;
+  background-color: #4e73df;
+  border-radius: 3px;
+  overflow: hidden;
+  text-align: center;
+  transition: 0.5s;
+  visibility: hidden;
+  opacity: 0;
+}
+.form-container {
+  position: relative;
+  padding: 10px 10px;
+  width: 100%;
+}
+
+.form-container .form-content {
+  position: relative;
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  left: 15.5%;
+}
+.form-container .form-content i {
+  font-size: 20px;
+  margin-right: 10px;
+  color: #4e73df;
+}
+
+.scrolling-container a {
+  color: #fff;
+}
+.scrolling-container:hover a {
+  color: #fff;
+  text-decoration: none;
+}
+.scrolling-container.active {
+  visibility: visible;
+  opacity: 1;
+}
+
+.sosialmedia {
+  display: flex;
+  justify-content: center;
+  transform: scale(1.9);
+  position: relative;
+  padding: 10px 0 0 0;
+}
+
+/*Tablet Device*/
+@media (min-width: 768px) and (max-width: 992px) {
+  .form-container .form-content i {
+    font-size: 20px;
+    padding: 10px 0px;
+    display: flex;
+    align-items: center;
+    color: #4e73df;
+  }
+}
+/* untuk mengatur tampilan desktop */
+@media only screen and (min-width: 992px) {
+  .nav-container .nav-list-container .nav-list li a {
+    color: #fff;
+  }
+  .nav-container.active .nav-list-container .nav-list li a {
+    color: #0dcaf0;
+  }
+}
+/* untuk mengatur tampilan mobile */
+@media only screen and (max-width: 768px) {
+  .nav-container .nav-list-container {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    width: 50%;
+    height: 100vh;
+    background-color: #fff;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+  }
+  .nav-container .nav-list-container.active {
+    left: 0;
+  }
+  .nav-container .nav-list-container .nav-list {
+    justify-content: space-evenly;
+    flex-direction: column;
+    min-height: 60vh;
+    margin: 100px 0;
+    text-align: left;
+  }
+  .nav-container .nav-list-container .nav-list li a {
+    color: black;
+  }
+  .nav-container .nav-list-container .nav-list li:hover {
+    background-color: #4e73df;
+  }
+  .nav-container .nav-list-container .nav-list li:hover a {
+    color: #fff;
+  }
+  .nav-container .nav-toggle {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    margin: auto 0;
+  }
+  .nav-container .nav-toggle span {
+    width: 100%;
+    height: 4px;
+    background-color: #fff;
+    /* #4e73df */
+    border-radius: 10px;
+    transition: 0.5s;
+  }
+  .nav-container .nav-toggle:before,
+  .nav-container .nav-toggle:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    background-color: #fff;
+    border-radius: 10px;
+    transition: 0.5s;
+  }
+  .nav-container .nav-toggle:before {
+    transform: translateY(-10px);
+  }
+  .nav-container .nav-toggle:after {
+    transform: translateY(10px);
+  }
+  .nav-container .nav-toggle.active span {
+    visibility: hidden;
+    opacity: 0;
+  }
+  .nav-container .nav-toggle.active:before {
+    transform: rotate(45deg);
+  }
+  .nav-container .nav-toggle.active:after {
+    transform: rotate(-45deg);
+  }
+  .nav-container.active .nav-toggle span,
+  .nav-container.active .nav-toggle:before,
+  .nav-container.active .nav-toggle:after {
+    background-color: #4e73df;
+  }
+  .jumbotron {
+    padding-top: 4rem;
+  }
+  .sosialmedia {
+    display: flex;
+    justify-content: center;
+  }
 }
