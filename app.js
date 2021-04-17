@@ -1,6 +1,6 @@
 // plugin animate on scroll
 AOS.init({
-  duration: 1500,
+  duration: 1200,
 });
 
 const navbarContainer = document.querySelector(".nav-container");
