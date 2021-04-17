@@ -489,6 +489,9 @@ td {
   }
 }
 
+.img-card {
+  padding-top: 4rem;
+}
 * {
   margin: 0%;
   padding: 0%;
@@ -562,6 +565,9 @@ html {
 .nav-container.active {
   background-color: #fff;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+.nav-logo {
+  animation: slide-right 1.5s ease;
 }
 .nav-container .nav-logo {
   position: relative;
@@ -639,15 +645,29 @@ html {
   display: none;
   cursor: pointer;
 }
+
 .jumbotron {
   padding: 8rem 0 0 0;
   background-color: #252a48;
 }
-
+.jumbotron img {
+  animation: fade-down 1.5s ease;
+}
+.jumbotron h1 {
+  animation: slide-right 1.5s ease;
+}
+.jumbotron p {
+  animation: slide-left 1.5s ease;
+}
 #projects {
   background-color: #003586;
 }
-
+.me h2 {
+  animation: fade-down 1.5s ease;
+}
+.detailme p {
+  animation: slide-right 1.5s ease;
+}
 section {
   padding-top: 8rem;
 }
@@ -707,6 +727,64 @@ section {
 .form-container1 .icon-box i:hover {
   transform: scale(1.8);
 }
+.card1 {
+  animation: slide-left 1.5s ease;
+}
+.card2 {
+  animation: slide-right 1.5s ease;
+}
+.card3 {
+  animation: slide-left 1.5s ease;
+}
+.card4 {
+  animation: slide-right 1.5s ease;
+}
+.card5 {
+  animation: slide-left 1.5s ease;
+}
+
+/* Animation */
+@keyframes slide-right {
+  0% {
+    opacity: 0;
+    transform: translateX(-80px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+@keyframes slide-left {
+  0% {
+    opacity: 1;
+    transform: translateX(100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+@keyframes zoom-in {
+  0% {
+    opacity: 0;
+    transform: translateZ(80px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateZ(0px);
+  }
+}
+@keyframes fade-down {
+  0% {
+    opacity: 0;
+    transform: translateY(-80px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
 /*Tablet Device*/
 @media (min-width: 768px) and (max-width: 992px) {
   .form-container .form-content {
@@ -720,6 +798,7 @@ section {
     padding-top: 1rem;
   }
 }
+
 /* untuk mengatur tampilan desktop */
 @media only screen and (min-width: 992px) {
   .nav-container .nav-list-container .nav-list li a {
@@ -809,7 +888,7 @@ section {
     background-color: #4e73df;
   }
   .jumbotron {
-    padding-top: 6rem;
+    padding-top: 7rem;
   }
   .jumbotron h1 {
     padding-top: 1rem;
@@ -876,7 +955,7 @@ header {
   margin: auto;
   min-height: 80vh;
   align-items: center;
-  padding: 10px 0 0 0;
+  padding: 20px 0 0 0;
 }
 .introduction {
   flex: 1;
@@ -911,6 +990,11 @@ header {
   height: 50%;
   position: relative;
   bottom: 30%;
+}
+.cover img {
+  display: flex;
+  justify-content: center;
+  bottom: 5%;
 }
 
 .big-circle {

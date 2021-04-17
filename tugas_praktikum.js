@@ -1,109 +1,115 @@
 //Membuat function baru untuk menentukan tanggal
 function baru() {
-    //Menampilkan hari dengan string
-    let a = new Date(); 
-    let days = ["Minggu", "Senin", "Selasa","Rabu", "Kamis", "Jumat", "Sabtu"];
-    document.getElementById('hari').innerHTML = days[a.getDay()]+",";
+  //Menampilkan hari dengan string
+  let a = new Date();
+  let days = ["Minggu", "Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu"];
+  document.getElementById("hari").innerHTML = days[a.getDay()] + ",";
 
-    //Menampilkan tanggal
-    document.getElementById('tanggal').innerHTML = new Date().getDate();
+  //Menampilkan tanggal
+  document.getElementById("tanggal").innerHTML = new Date().getDate();
 
-    //Menampilkan bulan dengan string
-    let b = new Date()
-    let monts = ["Januari", "Februari", "Maret","April", "Mei", "Juni", "Juli", "Agustus", "September", "Oktober","November", "Desember"];
-    document.getElementById('bulan').innerHTML = monts[b.getMonth()];
+  //Menampilkan bulan dengan string
+  let b = new Date();
+  let monts = ["Januari", "Februari", "Maret", "April", "Mei", "Juni", "Juli", "Agustus", "September", "Oktober", "November", "Desember"];
+  document.getElementById("bulan").innerHTML = monts[b.getMonth()];
 
-    //Menampilkan tahun
-    document.getElementById('tahun').innerHTML = + new Date().getFullYear()
-    
+  //Menampilkan tahun
+  document.getElementById("tahun").innerHTML = +new Date().getFullYear();
 }
 
 //Membuat Function Jam dengan di dalamnya terdapat function menentukan jam dan function animasi
-function clock(){
+function clock() {
   //Function untuk animasi
   function animation(span) {
     span.className = "turn";
-    setTimeout(function() {
+    setTimeout(function () {
       span.className = "";
     }, 700);
   }
   //Function untuk menentukan jam
   function jam() {
-    setInterval(function() {
+    setInterval(function () {
       let waktu = new Date();
-      let jam = document.getElementById('jam');
+      let jam = document.getElementById("jam");
       let hours = waktu.getHours();
       let minutes = waktu.getMinutes();
       let seconds = waktu.getSeconds();
-  
+
       if (waktu.getHours() < 10) {
-        hours = '0' + waktu.getHours();
+        hours = "0" + waktu.getHours();
       }
       if (waktu.getMinutes() < 10) {
-          minutes = '0' + waktu.getMinutes();
+        minutes = "0" + waktu.getMinutes();
       }
       if (waktu.getSeconds() < 10) {
-        seconds = '0' + waktu.getSeconds();
+        seconds = "0" + waktu.getSeconds();
       }
-  
-      jam.innerHTML =  '<span>'+hours+" : "+'</span>'
-                     + '<span>'+minutes+"   : "+'</span>'
-                     + '<span>'+seconds+'</span>';
-     }, 1000);
+
+      jam.innerHTML = "<span>" + hours + " : " + "</span>" + "<span>" + minutes + "   : " + "</span>" + "<span>" + seconds + "</span>";
+    }, 1000);
   }
   jam();
   //Function untuk memulai animasinya
   function jam2() {
-    let spans = jam2.getElementByTagName('span');
+    let spans = jam2.getElementByTagName("span");
     animation(spans[2]);
     if (seconds == 0) animation(spans[1]);
     if (minutes == 0 && seconds == 0) animation(spans[0]);
   }
 }
 
-
 /* Console log untuk menampilkan keterangan console jika saat ingin masuk mode mobile dan ingin keluar mode mobile */
 let mql = window.matchMedia("(max-width: 768px)");
-mql.addListener(function(e){
-  if(e.matches){
-    console.log('Enter Mobile Mode');
-  }
-  else{
-    console.log('Leave Mobile Mode');
+mql.addListener(function (e) {
+  if (e.matches) {
+    console.log("Enter Mobile Mode");
+  } else {
+    console.log("Leave Mobile Mode");
   }
 });
 
 /* Console log untuk menampilkan keterangan console jika saat ingin masuk mode tablet dan ingin keluar mode tablet */
 let tql = window.matchMedia("(min-width: 768px) and (max-width: 992px)");
-tql.addListener(function(e){
-  if(e.matches){
-    console.log('Enter Tablet Mode');
-  }
-  else{
-    console.log('Leave Tablet Mode');
+tql.addListener(function (e) {
+  if (e.matches) {
+    console.log("Enter Tablet Mode");
+  } else {
+    console.log("Leave Tablet Mode");
   }
 });
 
 /* Console log untuk menampilkan keterangan console jika saat ingin masuk mode dekstop dan ingin keluar mode dekstop */
 let dql = window.matchMedia("(min-width: 992px)");
-dql.addListener(function(e){
-  if(e.matches){
-    console.log('Enter Dekstop Mode');
-  }
-  else{
-    console.log('Leave Dekstop Mode');
+dql.addListener(function (e) {
+  if (e.matches) {
+    console.log("Enter Dekstop Mode");
+  } else {
+    console.log("Leave Dekstop Mode");
   }
 });
 
-
-function validasi(){
+function validasi() {
   let emailaddress = document.forms["myform"]["emailaddress"].value;
   let password = document.forms["myform"]["password"].value;
-  if( emailaddress== "admin123@gmail.com" && password == "123"){
+  if (emailaddress == "admin123@gmail.com" && password == "123") {
     return true;
-  }
-  else{
+  } else {
     alert("Username atau password yang Anda masukan SALAH");
     return false;
   }
 }
+
+const navbarContainer = document.querySelector(".nav-container");
+const scrollingBtn = document.querySelector(".scrolling-container");
+window.addEventListener("scroll", () => {
+  navbarContainer.classList.toggle("active", window.scrollY > 100);
+  scrollingBtn.classList.toggle("active", window.scrollY > 200);
+});
+
+/* navbar toggle event */
+const navListContainer = navbarContainer.querySelector(".nav-list-container");
+const navButton = navbarContainer.querySelector(".nav-toggle");
+navButton.addEventListener("click", function () {
+  this.classList.toggle("active");
+  navListContainer.classList.toggle("active");
+});
